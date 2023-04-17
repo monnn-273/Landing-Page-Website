@@ -61,7 +61,7 @@ nav .menu-item > a:hover {
   font-size: 30px;
 }
 
-.hero-content span {
+span {
   color: red;
 }
 
@@ -95,16 +95,23 @@ nav .menu-item > a:hover {
   display: flex;
   flex-direction: column;
   padding: 3% 5%;
-  height: 700px;
+  height: fit-content;
   background: #223a26;
 }
 
 .container > div {
   margin: 0 40px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .container h1 {
   font-size: 40px;
+  color: #f2e8cf;
+}
+
+.container p {
   color: #f2e8cf;
 }
 
